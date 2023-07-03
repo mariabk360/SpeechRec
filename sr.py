@@ -1,5 +1,6 @@
 import streamlit as st
 import speech_recognition as sr
+import PyAudio
 
 # Variable pour stocker l'instance de Recognizer
 recognizer = None
